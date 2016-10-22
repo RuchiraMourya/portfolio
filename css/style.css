@@ -1,0 +1,194 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+.module h1{
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 6%;
+  padding-bottom: 1%;
+}
+section.module.parallax h1 {
+  color:#ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module h3{
+font-size: 25px;
+text-transform: uppercase;
+}
+
+section.module p {
+  /*margin-bottom: 40px;*/
+  font-size: 20px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+    /*padding: 40px 0;
+    margin-top: 5%;
+    margin-bottom: 5%;*/
+}
+
+section.module.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/1.jpg");
+  background-color: #2cb9ee;
+}
+section.module.parallax-2 {
+  background-image: url("../images/2.jpg");
+  background-color: #7aabc2;
+}
+section.module.parallax-3 {
+  background-image: url("../images/3.jpg");
+  background-color: #787878;
+}
+
+@media all and (max-width: 600px) {
+  section.module h1{
+    font-size: 30px;
+  }
+  section.module p {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 960px) {
+  section.module.parallax h1 {
+        font-size: 40px;
+  }
+}
+
+.desg{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.name{
+    font-size: 20px;
+    text-align: center;
+    background-color: #787878;
+    border: 1px solid #909090;
+    line-height: 50px;
+    position: fixed;
+    left: 0;
+    padding: 5px 20px;
+}
+
+.Exp{
+     padding: 50px;
+     border: 2px solid #BAD0F1;
+     background-color: rgba(65, 125, 156, 0.8);
+     border-radius: 20px;
+     margin: 40px;
+     /*background-color: #B2D3FB;*/
+}
+.Exp:hover{
+
+     background-color: rgba(65, 125, 156,1);
+}
+
+.skill-circle li{
+  width: 180px;
+  height: 180px;
+  background-color: #787878;
+  color: #00FDDA;
+  display: inline-block;
+  margin: 20px;
+  line-height: 180px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.skill-circle li:hover{
+color: #787878;
+}
+
+.level1:hover {
+  background-color : #84FD98;
+}
+.level1:hover:before {
+  content: "5/5";
+}
+.level2:hover{
+ background-color:#C6F963;
+}
+.level2:hover:before {
+  content: "4/5";
+}
+.level3:hover{
+  background-color:#F5FD81;
+}
+.level3:hover:before {
+  content: "2.5/5";
+}
+.skill-circle li:hover span{
+  display:none;
+}
+
+.edu {
+    background-color: rgba(47,48,52,0.80);
+    padding: 40px;
+    border-radius:20px;
+    border: 2px solid #545151;
+    margin: 40px;
+    margin-top: 60px;
+    line-height: 40px;
+}
+
+.edu:hover{
+  background-color: rgba(47,48,52,1);
+}
+
+.module.content{
+  margin-bottom: 5%;
+}
+
+.my-works{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.contact{
+background-color: #787878;
+text-align: center;
+color:white;
+padding-bottom: 40px;
+}
+
+.contact li{
+    font-size:20px;
+    text-align: left;
+    width: 21%;
+    margin: 0 auto;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact a:hover{
+    color: #00FDDA;
+}
